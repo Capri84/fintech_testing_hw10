@@ -7,8 +7,7 @@ import android.support.test.uiautomator.Until;
 
 class Page {
 
-    public UiDevice device;
- //   private Logger logger = LoggerFactory.getLogger(Page.class);
+    UiDevice device;
 
     Page(UiDevice device) {
         this.device = device;

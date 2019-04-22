@@ -9,21 +9,27 @@ import android.support.test.uiautomator.Until;
 
 import java.util.Objects;
 
+import screens.AboutPage;
+import screens.DescriptionPage;
 import screens.DrawerMenuPage;
 import screens.MainFeedPage;
 import screens.SettingsPage;
+import screens.SubmitFeedbackPage;
 import screens.ThemesPage;
 import screens.TrendingPage;
 
 public class TestApplication {
 
     private static final int LAUNCH_TIMEOUT = 5000;
-    public UiDevice device;
+    public AboutPage aboutPage;
     public MainFeedPage mainFeedPage;
     public DrawerMenuPage drawerMenuPage;
     public TrendingPage trendingPage;
     public SettingsPage settingsPage;
     public ThemesPage themesPage;
+    public SubmitFeedbackPage submitFeedbackPage;
+    public DescriptionPage descriptionPage;
+    private UiDevice device;
 
     public TestApplication() {
         // Connect to device
@@ -47,6 +53,9 @@ public class TestApplication {
         trendingPage = new TrendingPage(device);
         settingsPage = new SettingsPage(device);
         themesPage = new ThemesPage(device);
+        aboutPage = new AboutPage(device);
+        submitFeedbackPage = new SubmitFeedbackPage(device);
+        descriptionPage = new DescriptionPage(device);
     }
 
     public void close() {
