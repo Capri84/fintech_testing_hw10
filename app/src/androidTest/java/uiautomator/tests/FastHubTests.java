@@ -1,17 +1,17 @@
-package tests;
+package uiautomator.tests;
 
 import android.support.test.uiautomator.Until;
 
 import org.junit.Test;
 
-import screens.AboutPage;
-import screens.DescriptionPage;
-import screens.DrawerMenuPage;
-import screens.MainFeedPage;
-import screens.SettingsPage;
-import screens.SubmitFeedbackPage;
-import screens.ThemesPage;
-import screens.TrendingPage;
+import uiautomator.screens.AboutPage;
+import uiautomator.screens.DescriptionPage;
+import uiautomator.screens.DrawerMenuPage;
+import uiautomator.screens.MainFeedPage;
+import uiautomator.screens.SettingsPage;
+import uiautomator.screens.SubmitFeedbackPage;
+import uiautomator.screens.ThemesPage;
+import uiautomator.screens.TrendingPage;
 
 import static org.junit.Assert.assertEquals;
 

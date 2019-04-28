@@ -1,4 +1,4 @@
-package testapp;
+package uiautomator.testapp;
 
 import android.content.Context;
 import android.content.Intent;
@@ -9,14 +9,14 @@ import android.support.test.uiautomator.Until;
 
 import java.util.Objects;
 
-import screens.AboutPage;
-import screens.DescriptionPage;
-import screens.DrawerMenuPage;
-import screens.MainFeedPage;
-import screens.SettingsPage;
-import screens.SubmitFeedbackPage;
-import screens.ThemesPage;
-import screens.TrendingPage;
+import uiautomator.screens.AboutPage;
+import uiautomator.screens.DescriptionPage;
+import uiautomator.screens.DrawerMenuPage;
+import uiautomator.screens.MainFeedPage;
+import uiautomator.screens.SettingsPage;
+import uiautomator.screens.SubmitFeedbackPage;
+import uiautomator.screens.ThemesPage;
+import uiautomator.screens.TrendingPage;
 
 public class TestApplication {
 

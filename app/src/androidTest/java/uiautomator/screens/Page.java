@@ -1,4 +1,4 @@
-package screens;
+package uiautomator.screens;
 
 import android.support.test.uiautomator.BySelector;
 import android.support.test.uiautomator.UiDevice;

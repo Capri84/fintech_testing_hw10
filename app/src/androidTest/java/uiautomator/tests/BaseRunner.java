@@ -1,9 +1,9 @@
-package tests;
+package uiautomator.tests;
 
 import org.junit.After;
 import org.junit.Before;
 
-import testapp.TestApplication;
+import uiautomator.testapp.TestApplication;
 
 public class BaseRunner {
 
